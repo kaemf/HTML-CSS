@@ -1,0 +1,245 @@
+body{
+    background: linear-gradient(90deg, grey, white);
+    overflow: hidden;
+}
+
+div.year{
+    position: absolute;
+    left: 93%;
+    top: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+div.date{
+    position: absolute;
+    top:2.5%;
+    left:2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+div.time{
+    position: absolute;
+    left: 30%;
+    top: 12%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+div.stime{
+    position: absolute;
+    left: 110%;
+    top: 45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+div.weather-back{
+    position: absolute;
+    background-color: black;
+    width: 25%;
+    height: 53%;
+    color:aliceblue;
+    margin-left: 35.7%;
+    top: 20%;
+    box-shadow: 4px 4px 15px 1px rgb(53, 53, 53);
+}
+
+div.weather-name-city{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+}
+
+div.temp{
+    position: absolute;
+    left: 5%;
+    top: 70%;
+    color: #929292;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 500%;
+}
+
+div.deg{
+    position: absolute;
+    color: #929292;
+    top:-15%;
+    left:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:80%;
+}
+
+div.date-back{
+    position: absolute;
+    color:rgb(104, 104, 104);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:80%;
+    top: 92%;
+    left: 75%;
+}
+
+a.btn{
+    position: absolute;
+    left: 87%;
+    text-decoration: none;
+    color: white;
+    font-size: 300%;
+}
+
+div.calendar-back{
+    background: #c6c6c6;
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    width: 27%;
+    height: 30%;
+    z-index: -1;
+    box-shadow: 8px 8px 5px 1px gray;
+}
+
+div.Monday{
+    position: absolute;
+    left: 8%;
+    top: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#a3a3a3;
+}
+
+div.Tue{
+    position: absolute;
+    left:27%;
+    top: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#a3a3a3;
+}
+
+div.Wed{
+    position: absolute;
+    left:45%;
+    top:40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#a3a3a3;
+}
+
+div.Thu{
+    position: absolute;
+    left:65%;
+    top:40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#a3a3a3;
+}
+
+div.Fri{
+    position: absolute;
+    left:85%;
+    top:40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#a3a3a3;
+}
+
+div.first{
+    position: absolute;
+    left:9%;
+    top:54%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+
+div.second{
+    position: absolute;
+    left:28%;
+    top:54%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+
+div.third{
+    position: absolute;
+    left:46%;
+    top:54%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+
+div.fourth{
+    position: absolute;
+    left:66%;
+    top:54%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+
+div.fiveth{
+    position: absolute;
+    left:86%;
+    top:54%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+
+strong.temp{
+    font-weight: 600;
+}
+
+a.wbtn{
+    position: absolute;
+    left:90%;
+    font-size: 300%;
+    color:black;
+    text-decoration: none;
+}
+
+.moon {
+    position: absolute;
+    left: 35%;
+    top: 82%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(45deg, rgb(122, 131, 129) 16%, rgb(0, 0, 0));
+    background: -moz-linear-gradient(45deg, rgb(122, 131, 129) 16%, rgb(0, 0, 0));
+    background: linear-gradient(45deg, rgb(122, 131, 129) 16%, rgb(0, 0, 0));
+}
+
+img.sky{
+    position: absolute;
+    width: 40%;
+    z-index: 1;
+    left: 38%;
+    top:18%;
+}
+
+.arrowLeft {
+    position: absolute;
+    left: 0px;
+    font-size: 40px;
+    vertical-align: center;
+    top:3%; 
+} 
+
+.arrowRight {
+    position: absolute;
+    right: 0px;
+    font-size: 40px;
+    vertical-align: center;
+    top:3%;
+}
+
+.miniBlock {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    background-color: rgba(144, 150, 150, 0.5);
+    top: 40%;
+    left: 33.3%;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+/* ion-icon.icon{
+    z-index: 2;
+    position: absolute;
+} */

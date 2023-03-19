@@ -1,0 +1,41 @@
+body{
+	background: url(../items/0.png) no-repeat top, #000;
+}
+
+#one{
+	position: relative;
+	top: 452px;
+	left: 312px;
+}
+
+#two{
+	position: relative;
+	top: 335px;
+	left: 690px;
+}
+
+#three{
+	position: relative;
+	top: 300px;
+	left: 190px;
+}
+
+#four{
+	position: relative;
+	top: 375px;
+	left: 80px;
+}
+
+#five{
+	position: relative;
+	top: 230px;
+	left: -770px;
+	z-index: -1;
+}
+
+#six{
+	position: relative;
+	top: -85px;
+	left: -1120px;
+	z-index: -2;
+}
